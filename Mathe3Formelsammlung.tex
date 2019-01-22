@@ -1,6 +1,22 @@
-\documentclass[12pt, a4paper]{scrreprt}
+\documentclass[12pt, a4paper, twoside]{scrreprt}
 
 \usepackage[tight]{shorttoc}
+
+\usepackage{scrlayer-scrpage}
+ 
+\clearpairofpagestyles{}
+ 
+\setkomafont{pageheadfoot}{\sffamily\footnotesize}
+\setkomafont{pagination}{}
+
+\ohead{Seite~\pagemark}
+\ihead{Tim Hilt}
+
+\KOMAoptions{
+  chapterprefix=true,
+  headsepline=true,
+}
+
 \usepackage{pgfplots, amssymb, todonotes, pdfpages, mystyle}
 \usetikzlibrary{angles, arrows}
 \pgfplotsset{
@@ -10,11 +26,9 @@
 }
 
 % \setlength{\extrarowheight}{12pt}
-
 \begin{document}
 
 \include{Title}
-\shorttoc{Kurzes Inhaltsverzeichnis}{1}
 \tableofcontents
 \clearpage
 
@@ -93,8 +107,7 @@
   \arg (z) = \varphi =
   \begin{cases}
     \arctan \left(\frac{y}{x}\right) & \text{für } x>0, y \text{ bel.}\\
-    \arctan \left(\frac{y}{x}\right) + \pi & \text{für } x<0, y \geq 0\\
-    \arctan \left(\frac{y}{x}\right) + \pi & \text{für } x<0, y<0\\
+    \arctan \left(\frac{y}{x}\right) + \pi & \text{für } x<0, y \text{ bel.}\\
     \frac{\pi}{2} & \text{für } x = 0, y > 0\\
     - \frac{\pi}{2} & \text{für } x = 0,y < 0
   \end{cases}
@@ -276,7 +289,7 @@ Der Sinus Kardinals \(\operatorname{si}(x)\) ist definiert als
 Genauer wird die Dirac-Distribution durch eine Folge von Rechteckimpulsen hergeleitet, die den konstanten Flächeninhalt \(1\) besitzen, deren Breite dabei jedoch gegen \(0\) strebt, deren Höhe dafür aber gegen \(\infty\).
 
 \begin{minipage}{.5\textwidth}
-  Wird eine Funktion mit der Dirac-Distribution an einem Punkt \(t\) multipliziert, so wird die \textbf{gesamte Funktion, bis auf den Funktionswert an der Stelle \(t\) ausgeblendet!}
+  Wird eine Funktion mit der Dirac-Distribution an einem Punkt \(t_0\) multipliziert, so wird die \textbf{gesamte Funktion, bis auf den Funktionswert an der Stelle \(t_0\) ausgeblendet!}
 \end{minipage}\hfill%
 \begin{minipage}{.5\textwidth}
   \centering
@@ -292,7 +305,7 @@ Genauer wird die Dirac-Distribution durch eine Folge von Rechteckimpulsen hergel
       \draw [->, >=stealth, myred, very thick] (axis cs:3,0) -- (axis cs:3,3);
     \end{axis}
   \end{tikzpicture}
-  {\footnotesize \((t-2)^2+2 \cdot \delta(t-3)\)}
+  {\footnotesize \(((t-2)^2+2) \cdot \delta(t-3)\)}
 \end{minipage}
 
 \section{Verallgemeinerte Ableitung}
@@ -452,11 +465,36 @@ Um aus einer fouriertransormierten Funktion \(S(f)\) die Zeitfunktion \(s(t)\) z
 
 \chapter{Laplacetransformation}
 
-  Die Berechnung der Laplace-Transformation ist definiert durch:
+Die Berechnung der Laplace-Transformation ist definiert durch:
   
 \begin{mathbox}
-    f(t)~\laplace~F(s) = \int_0^{\infty}f(t) \cdot e^{-st} dt
+  f(t)~\laplace~F(s) = \int_0^{\infty}f(t) \cdot e^{-st} dt
 \end{mathbox}
+
+\mybfcol{Standardrechteck im Laplacebereich}  
+
+\begin{minipage}{.48\linewidth}
+  Das Standardrechteck \(r(t) = \sigma(t) - \sigma(t-1)\) entspricht im Laplacebereich
+  \[\laplace\quad\frac{1-e^{-s}}{s}\]
+\end{minipage}\hfill%
+\begin{minipage}{.48\linewidth}
+  \begin{center}
+  \begin{tikzpicture}
+    \begin{axis}[ymax=1.5,xlabel=\(t\),ylabel=\(r(t)\), width=\textwidth,]
+      \addplot[very thick, maincolor, no markers] coordinates{
+        (-1,0)
+        (0,0)
+        (0,1)
+        (1,1)
+        (1,0)
+        (3,0)
+      };
+    \end{axis}
+  \end{tikzpicture}
+\end{center}
+
+\end{minipage}
+
 \chapter{z-Transformation}
 
 \part{Statistik und Wahrscheinlichkeitsrechnung}
@@ -581,18 +619,100 @@ Beschreibung: Ziehen \textbf{mit} zurücklegen $\rightarrow$ Wahrscheinlichkeit 
 \end{figure}
 
 \begin{figure}[H]
-  \subsection{Geometrische Verteilung}
+  \subsubsection{Geometrische Verteilung}
+  Beschreibung: Gegeben ist die Wahrscheinlichkeit für einen Erfolg (\(p\), Misserfolg \(q = 1-p\)). Die geometrische Verteilung berechnet die Wahrscheinlichkeit dafür, dass genau \(k\) Versuche benötigt werden um zum ersten Erfolg zu kommen; dass man also \textbf{beim} \(k\)-ten Versuch Erfolg hat.\\
+  \textbf{Dichtefunktion:}
+  \[P(X=k) = p \cdot (1-p)^{k-1}\]
+  \textbf{Verteilungsfunktion:}
+  \[P(X \leq k) = 1 - (1-p)^k\]
+  \textbf{Erwartungswert:}
+  \[E(X) = \mu = \frac{1}{p}\]
+  \textbf{Varianz:}
+  \[\operatorname{Var}(X) = \sigma^2 = \frac{1-p}{p^2}\]
 \end{figure}
 
-\begin{figure}[H]
-  \subsection{Exponentialverteilung}
-\end{figure}
 
 
-\clearpage
+
+\subsubsection{Quantile und Zufallsstreubereich der Normalverteilung}
+
+\mytextcol{Quantile} berechnen einen bestimmten Prozentsatz der Fläche unter der Verteilungsfunktion einer normalverteilten Zufallsvariable.
+
+Bsp. das 95\% Quantil wird geschrieben als
+\begin{empheq}[box=\fbox]{align*}
+  q_{0.95} = \mu + z_{0.95} \cdot \sigma
+\end{empheq}
+
+Das bedeutet, dass 95\% der Werte unterhalb des Wertes \(q_{0.95}\) liegen.
+
+Die Werte für \(z_m\) sind tabelliert, können jedoch auch mit dem Taschenrechner (mit $\mu=0$ und $\sigma=1$) berechnet werden:
+
+\begin{center}
+  \begin{tabular}{llllllll}
+    \toprule
+    \(m\) & \(0.8\) & \(0.9\) & \(0.95\) & \(0.975\) & \(0.99\) & \(0.995\) & \(0.999\)\\
+    \(z_m\) & \(0.842\) & \(1.282\) & \(1.654\) & \(1.960\) & \(2.326\) & \(2.576\) & \(3.090\)\\
+    \bottomrule
+  \end{tabular}
+\end{center}
+
+Der \mytextcol{Zufallsstreubereich} (ZSB) Ist ein Intervall, das zwei Quantile berechnet. ZSBs können nach unten, nach oben oder zweiseitig beschränkt sein. Der Zufallsstreubereich kann für ein gegebenes \(\mu\) oder für den arithmetischen Mittelwert \(\overline{X}\) eines gegebenen Datensatzes berechnet werden.
+
+Es sei \(p\) die gegebene Wahrscheinlichkeit/die gewünschte Fläche unter der Verteilungsfunktion für das Quantil oder den ZSB. Wir definieren \(\alpha\) als den Kehrwert \(\mathbf{\alpha = 1 - p}\) von \(p\).
+
+Soll nun ein ZSB berechnet werden so passiert dies über die Formeln:
+
+\begin{center}
+  \begin{tabular}{lrcl}
+    \toprule
+    Nach oben beschränkt & \((-\infty\ ;\ q_{1-\alpha}]\) & \(=\) & \((-\infty\ ;\ \mu + z_{1-\alpha} \cdot \sigma]\)\\
+    Nach unten beschränkt & \([q_{\alpha}\ ;\ \infty)\) & \(=\) & \([\mu - z_{1- \alpha} \cdot \sigma\ ;\ \infty)\)\\
+    Beidseitig beschränkt & \([q_{\frac{\alpha}{2}}\ ;\ q_{1-\frac{\alpha}{2}}]\) & \(=\) & \([\mu - z_{1-\frac{\alpha}{2}} \cdot \sigma\ ;\ \mu + z_{1-\frac{\alpha}{2}} \cdot \sigma]\)\\
+    \bottomrule
+  \end{tabular}
+\end{center}
+
+Auch hier kann der \mybfcol{Taschenrechner} eingesetzt werden (InvNormal). Hier sind die Werte \textbf{Area, $\mu$ und $\sigma$} verlangt. $\mu$ und $\sigma$ sind meist in der Aufgabenstellung gegeben, für Area muss:
+
+\begin{center}
+  \begin{tabular}{llc}
+    \toprule
+    einseitiger Grenzwert: &&\\
+    \midrule
+                           & nach oben beschränkt: & \(p\)\\
+                           & nach unten beschränkt: & \(\alpha\)\\
+    \midrule
+    zweiseitiger Grenzwert: &&\\
+    \midrule
+                           & untere Grenze: & \(\frac{\alpha}{2}\)\\
+                           & obere Grenze: & \(1-\frac{\alpha}{2}\)\\
+    \bottomrule
+  \end{tabular}
+\end{center}
+
+Ist ein \mytextcol{Datensatz mit \(n\) Elementen} gegeben, so ändern sich die Formeln zu:
+
+\begin{center}
+  \begin{tabular}{lrcl}
+    \toprule
+    Nach oben beschränkt & \((-\infty\ ;\ q_{1-\alpha}]\) & \(=\) & \(\left(-\infty\ ;\ \mu + z_{1-\alpha} \cdot \frac{\sigma}{\sqrt{n}}\right]\)\\[1em]
+    Nach unten beschränkt & \([q_{\alpha}\ ;\ \infty)\) & \(=\) & \(\left[\mu - z_{1- \alpha} \cdot \frac{\sigma}{\sqrt{n}}\ ;\ \infty\right)\)\\[1em]
+    Beidseitig beschränkt & \([q_{\frac{\alpha}{2}}\ ;\ q_{1-\frac{\alpha}{2}}]\) & \(=\) & \(\left[\mu - z_{1-\frac{\alpha}{2}} \cdot \frac{\sigma}{\sqrt{n}}\ ;\ \mu + z_{1-\frac{\alpha}{2}} \cdot \frac{\sigma}{\sqrt{n}}\right]\)\\[1em]
+    \bottomrule
+  \end{tabular}
+\end{center}
+
+Nun muss selbstverständlich \mytextcol{für $\sigma$ in der InvNormal-Funktion \(\frac{\sigma}{\sqrt{n}}\)} eingegeben werden.
+
+\newpage
 \phantomsection%
 \addtocounter{chapter}{1}
-\addchaptertocentry{\arabic{chapter}}{Tabellen aus Buch von Prof.\ Koch und Prof.\ Stämpfle}
+\addchaptertocentry{\arabic{chapter}}{Anhang}
+
+\newpage
+\phantomsection%
+\addtocounter{section}{1}
+\addsectiontocentry{A}{Tabellen aus Buch von Prof.\ Koch und Prof.\ Stämpfle}
 \includepdf[pages=-]{Cheatsheet.pdf}
 
 \end{document}
