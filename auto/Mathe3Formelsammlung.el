@@ -21,12 +21,15 @@
     "scrreprt12"
     "shorttoc"
     "scrlayer-scrpage"
+    "trfsigns"
+    "tikz"
     "pgfplots"
     "amssymb"
     "todonotes"
     "pdfpages"
     "mystyle")
    (TeX-add-symbols
+    '("LTI" ["argument"] 3)
     "arraystretch"))
  :latex)
 

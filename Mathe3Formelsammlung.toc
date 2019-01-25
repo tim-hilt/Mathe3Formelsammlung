@@ -47,36 +47,36 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {chapter}{\numberline {4}Laplacetransformation}{15}{chapter.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}z-Transformation}{16}{chapter.5}
+\contentsline {chapter}{\numberline {5}z-Transformation}{17}{chapter.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {part}{\numberline {II}Statistik und Wahrscheinlichkeitsrechnung}{17}{part.2}
+\contentsline {part}{\numberline {II}Statistik und Wahrscheinlichkeitsrechnung}{18}{part.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {6}Beschreibende Statistik}{18}{chapter.6}
+\contentsline {chapter}{\numberline {6}Beschreibende Statistik}{19}{chapter.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {7}Kombinatorik und Wahrscheinlichkeitsrechnung}{19}{chapter.7}
+\contentsline {chapter}{\numberline {7}Kombinatorik und Wahrscheinlichkeitsrechnung}{20}{chapter.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.1}Kombinatorik}{19}{section.7.1}
+\contentsline {section}{\numberline {7.1}Kombinatorik}{20}{section.7.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1.1}Permutation}{19}{subsection.7.1.1}
+\contentsline {subsection}{\numberline {7.1.1}Permutation}{20}{subsection.7.1.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.2}Kombination und Variation}{19}{section.7.2}
+\contentsline {section}{\numberline {7.2}Kombination und Variation}{20}{section.7.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7.3}Wahrscheinlichkeitsrechnung}{21}{section.7.3}
+\contentsline {section}{\numberline {7.3}Wahrscheinlichkeitsrechnung}{22}{section.7.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3.1}Wahrscheinlichkeitsverteilungen}{21}{subsection.7.3.1}
+\contentsline {subsection}{\numberline {7.3.1}Wahrscheinlichkeitsverteilungen}{22}{subsection.7.3.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Allgemeine Form}{21}{section*.2}
+\contentsline {subsubsection}{\nonumberline Allgemeine Form}{22}{section*.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Hypergeometrische Verteilung}{22}{section*.3}
+\contentsline {subsubsection}{\nonumberline Hypergeometrische Verteilung}{23}{section*.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Binomialverteilung}{23}{section*.4}
+\contentsline {subsubsection}{\nonumberline Binomialverteilung}{24}{section*.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Poissonverteilung}{24}{section*.5}
+\contentsline {subsubsection}{\nonumberline Poissonverteilung}{25}{section*.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Geometrische Verteilung}{24}{section*.6}
+\contentsline {subsubsection}{\nonumberline Geometrische Verteilung}{25}{section*.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\nonumberline Quantile und Zufallsstreubereich der Normalverteilung}{25}{section*.7}
+\contentsline {subsubsection}{\nonumberline Quantile und Zufallsstreubereich der Normalverteilung}{26}{section*.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {8}Anhang}{27}{section*.8}
+\contentsline {chapter}{\numberline {8}Anhang}{28}{section*.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {A}Tabellen aus Buch von Prof.\ Koch und Prof.\ Stämpfle}{27}{section*.9}
+\contentsline {section}{\numberline {A}Tabellen aus Buch von Prof.\ Koch und Prof.\ Stämpfle}{28}{section*.9}

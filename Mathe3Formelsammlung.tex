@@ -2,8 +2,22 @@
 
 \usepackage[tight]{shorttoc}
 
-\usepackage{scrlayer-scrpage}
- 
+\usepackage{scrlayer-scrpage, trfsigns, tikz}
+\usetikzlibrary{arrows.meta}
+\tikzset{>=latex}
+\newcommand{\LTI}[4][1]{
+  \begin{center}
+    \begin{tikzpicture}[scale=#1]
+      \draw[->, thick] (0,1) -- (2,1);
+      \draw[thick] (2,0) rectangle (5,2) node [pos=.5] {#3};
+      \draw[->, thick] (5,1) -- (7,1);
+      \draw [above] (0,1) node {#2};
+      \draw [above] (7,1) node {#4};
+      \draw [above] (3.5,2) node {\sffamily LTI};
+    \end{tikzpicture}
+  \end{center}
+}
+
 \clearpairofpagestyles{}
  
 \setkomafont{pageheadfoot}{\sffamily\footnotesize}
@@ -461,8 +475,6 @@ Um aus einer fouriertransormierten Funktion \(S(f)\) die Zeitfunktion \(s(t)\) z
   S(f)~\Laplace~s(t) = \int_{-\infty}^{\infty} S(f) e^{\im 2 \pi f} df
 \end{mathframed}
 
-\clearpage
-
 \chapter{Laplacetransformation}
 
 Die Berechnung der Laplace-Transformation ist definiert durch:
@@ -479,21 +491,34 @@ Die Berechnung der Laplace-Transformation ist definiert durch:
 \end{minipage}\hfill%
 \begin{minipage}{.48\linewidth}
   \begin{center}
-  \begin{tikzpicture}
-    \begin{axis}[ymax=1.5,xlabel=\(t\),ylabel=\(r(t)\), width=\textwidth,]
-      \addplot[very thick, maincolor, no markers] coordinates{
-        (-1,0)
-        (0,0)
-        (0,1)
-        (1,1)
-        (1,0)
-        (3,0)
-      };
-    \end{axis}
-  \end{tikzpicture}
-\end{center}
-
+    \begin{tikzpicture}
+      \begin{axis}[ymax=1.5,xlabel=\(t\),ylabel=\(r(t)\), width=\textwidth,]
+        \addplot[very thick, maincolor, no markers] coordinates{
+          (-1,0)
+          (0,0)
+          (0,1)
+          (1,1)
+          (1,0)
+          (3,0)
+        };
+      \end{axis}
+    \end{tikzpicture}
+  \end{center}
 \end{minipage}
+
+\mybfcol{Eingangssignal, Ausgangssignal, Impulsantwort}
+
+Eine inhomogene Differential- oder Differenzengleichung mit Stöfunktion \(r(t) \neq 0\) besitzt das \mybfcol{Eingangssignal \(r(t)\)}. Sie besitzt die Lösung \(x(t)\) bzw. \(f_k\).\\
+Ist nun noch auch die Impulsantwort \(g(k)/g_k\) des Systems bekannt, so gilt:
+\begin{align*}
+  x(t) &= g(k) \star r(t)\\
+  \intertext{bzw.}
+  f_k &= g_k \star r(t)
+\end{align*}
+
+Die Ausgangsfunktion entspricht demnach der \mytextcol{Faltung der Störfunktion \(r(t)\) mit der Impulsantwort \(g(k)/g_lk\)}.
+
+\LTI{\(r(t)\)}{\(g(k)/g_k\)}{\(x(t)/f_k\)}
 
 \chapter{z-Transformation}
 

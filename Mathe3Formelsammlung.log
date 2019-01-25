@@ -1,4 +1,4 @@
-This is LuaTeX, Version 1.07.0 (TeX Live 2018/Arch Linux)  (format=lualatex 2019.1.14)  22 JAN 2019 12:46
+This is LuaTeX, Version 1.07.0 (TeX Live 2018/Arch Linux)  (format=lualatex 2019.1.14)  23 JAN 2019 10:47
  system commands enabled.
  file:line:error style messages enabled.
 **\input Mathe3Formelsammlung.tex
@@ -160,14 +160,31 @@ Package scrlayer-scrpage Info: deactivating warning for font element
 (scrlayer-scrpage)             `pagefoot' on input line 1268.
 )
 Package scrlayer-scrpage Info: auto-selection of `pagestyleset=KOMA-Script'.
-Package scrkbase Info: You've told me to redefine the font selection of the
-(scrkbase)             element `pagination' that is an alias of element
-(scrkbase)             `pagenumber' on input line 10.
 
-(/usr/share/texmf-dist/tex/latex/pgfplots/pgfplots.sty
-(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
-Package: pgfplots 2018/03/28 v1.16 Data Visualization (1.16)
+(/usr/share/texmf-dist/tex/latex/trfsigns/trfsigns.sty
+Package: trfsigns 
+)
+(/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks15
+\pgfutil@tempdima=\dimen103
+\pgfutil@tempdimb=\dimen104
 
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex))
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box28
+
+(/usr/share/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+
+(/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
 (/usr/share/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
@@ -185,30 +202,9 @@ Package graphics Info: Driver file: luatex.def on input line 99.
 (/usr/share/texmf-dist/tex/latex/graphics-def/luatex.def
 File: luatex.def 2018/01/08 v1.0l Graphics/color driver for luatex
 ))
-\Gin@req@height=\dimen103
-\Gin@req@width=\dimen104
+\Gin@req@height=\dimen105
+\Gin@req@width=\dimen106
 )
-(/usr/share/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
-(/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
-(/usr/share/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
-(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
-\pgfutil@everybye=\toks15
-\pgfutil@tempdima=\dimen105
-\pgfutil@tempdimb=\dimen106
-
-(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.tex))
-(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
-\pgfutil@abb=\box28
-
-(/usr/share/texmf-dist/tex/latex/ms/everyshi.sty
-Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
-))
-(/usr/share/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
-Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
-))
-Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
-
-(/usr/share/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
 (/usr/share/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
 (/usr/share/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
 Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
@@ -440,6 +436,20 @@ File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
 topaths.code.tex
 File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
 )))
+(/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.meta.code.tex
+File: pgflibraryarrows.meta.code.tex 2015/05/13 v3.0.1a (rcs-revision 1.13)
+\pgfarrowinset=\dimen151
+\pgfarrowlength=\dimen152
+\pgfarrowwidth=\dimen153
+\pgfarrowlinewidth=\dimen154
+)
+Package scrkbase Info: You've told me to redefine the font selection of the
+(scrkbase)             element `pagination' that is an alias of element
+(scrkbase)             `pagenumber' on input line 24.
+ (/usr/share/texmf-dist/tex/latex/pgfplots/pgfplots.sty
+(/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplots 2018/03/28 v1.16 Data Visualization (1.16)
+
 (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
 (/usr/share/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
 Package pgfplots info on input line 124: Initializing with LUA version Lua 5.2
@@ -447,7 +457,7 @@ Package pgfplots info on input line 124: Initializing with LUA version Lua 5.2
 \t@pgfplots@toka=\toks27
 \t@pgfplots@tokb=\toks28
 \t@pgfplots@tokc=\toks29
-\pgfplots@tmpa=\dimen151
+\pgfplots@tmpa=\dimen155
 \c@pgfplots@coordindex=\count109
 \c@pgfplots@scanlineindex=\count110
 
@@ -516,14 +526,14 @@ pgfsys-luatex.def)))
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 decorations.code.tex
 (/usr/share/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.code.tex
-\pgfdecoratedcompleteddistance=\dimen152
-\pgfdecoratedremainingdistance=\dimen153
-\pgfdecoratedinputsegmentcompleteddistance=\dimen154
-\pgfdecoratedinputsegmentremainingdistance=\dimen155
-\pgf@decorate@distancetomove=\dimen156
+\pgfdecoratedcompleteddistance=\dimen156
+\pgfdecoratedremainingdistance=\dimen157
+\pgfdecoratedinputsegmentcompleteddistance=\dimen158
+\pgfdecoratedinputsegmentremainingdistance=\dimen159
+\pgf@decorate@distancetomove=\dimen160
 \pgf@decorate@repeatstate=\count115
-\pgfdecorationsegmentamplitude=\dimen157
-\pgfdecorationsegmentlength=\dimen158
+\pgfdecorationsegmentamplitude=\dimen161
+\pgfdecorationsegmentlength=\dimen162
 )
 \tikz@lib@dec@box=\box39
 )
@@ -536,12 +546,12 @@ decorations.pathreplacing.code.tex
 (/usr/share/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrarydecorati
 ons.pathreplacing.code.tex))
 \pgfplots@numplots=\count116
-\pgfplots@xmin@reg=\dimen159
-\pgfplots@xmax@reg=\dimen160
-\pgfplots@ymin@reg=\dimen161
-\pgfplots@ymax@reg=\dimen162
-\pgfplots@zmin@reg=\dimen163
-\pgfplots@zmax@reg=\dimen164
+\pgfplots@xmin@reg=\dimen163
+\pgfplots@xmax@reg=\dimen164
+\pgfplots@ymin@reg=\dimen165
+\pgfplots@ymax@reg=\dimen166
+\pgfplots@zmin@reg=\dimen167
+\pgfplots@zmax@reg=\dimen168
 )
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 plotmarks.code.tex
@@ -597,8 +607,8 @@ File: pgflibraryfadings.code.tex 2008/02/07 v3.0.1a (rcs-revision 1.3)
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count118
 \calc@Bcount=\count119
-\calc@Adimen=\dimen165
-\calc@Bdimen=\dimen166
+\calc@Adimen=\dimen169
+\calc@Bdimen=\dimen170
 \calc@Askip=\skip58
 \calc@Bskip=\skip59
 LaTeX Info: Redefining \setlength on input line 80.
@@ -626,8 +636,8 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 (/usr/share/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2018/09/07 v3.3 Provides the ifpdf switch
 )))
-\AM@pagewidth=\dimen167
-\AM@pageheight=\dimen168
+\AM@pagewidth=\dimen171
+\AM@pageheight=\dimen172
 
 (/usr/share/texmf-dist/tex/latex/pdfpages/ppluatex.def
 File: ppluatex.def 2017/10/31 v0.5l Pdfpages driver for LuaTeX (AM)
@@ -654,14 +664,14 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@cnth=\count123
 \Gm@cntv=\count124
 \c@Gm@tempcnt=\count125
-\Gm@bindingoffset=\dimen169
-\Gm@wd@mp=\dimen170
-\Gm@odd@mp=\dimen171
-\Gm@even@mp=\dimen172
-\Gm@layoutwidth=\dimen173
-\Gm@layoutheight=\dimen174
-\Gm@layouthoffset=\dimen175
-\Gm@layoutvoffset=\dimen176
+\Gm@bindingoffset=\dimen173
+\Gm@wd@mp=\dimen174
+\Gm@odd@mp=\dimen175
+\Gm@even@mp=\dimen176
+\Gm@layoutwidth=\dimen177
+\Gm@layoutheight=\dimen178
+\Gm@layouthoffset=\dimen179
+\Gm@layoutvoffset=\dimen180
 \Gm@dimlist=\toks36
 )
 (/usr/share/texmf-dist/tex/generic/babel/babel.sty
@@ -768,7 +778,7 @@ phy)
 (/usr/share/texmf-dist/tex/generic/babel/babel.def
 File: babel.def 2018/11/13 3.27 Babel common definitions
 \babel@savecnt=\count126
-\U@D=\dimen177
+\U@D=\dimen181
 
 (/usr/share/texmf-dist/tex/generic/babel/luababel.def))
 Package babel Info: Making " an active character on input line 121.
@@ -796,12 +806,12 @@ Package: expl3 2018-11-19 L3 programming layer (code)
 \l__iow_line_target_int=\count135
 \l__iow_one_indent_int=\count136
 \l__iow_indent_int=\count137
-\c_zero_dim=\dimen178
-\c_max_dim=\dimen179
-\l_tmpa_dim=\dimen180
-\l_tmpb_dim=\dimen181
-\g_tmpa_dim=\dimen182
-\g_tmpb_dim=\dimen183
+\c_zero_dim=\dimen182
+\c_max_dim=\dimen183
+\l_tmpa_dim=\dimen184
+\l_tmpb_dim=\dimen185
+\g_tmpa_dim=\dimen186
+\g_tmpb_dim=\dimen187
 \c_zero_skip=\skip61
 \c_max_skip=\skip62
 \l_tmpa_skip=\skip63
@@ -816,7 +826,7 @@ Package: expl3 2018-11-19 L3 programming layer (code)
 \g_tmpb_muskip=\muskip15
 \l_keys_choice_int=\count138
 \l__intarray_loop_int=\count139
-\c__intarray_sp_dim=\dimen184
+\c__intarray_sp_dim=\dimen188
 \g__intarray_font_int=\count140
 \c__fp_leading_shift_int=\count141
 \c__fp_middle_shift_int=\count142
@@ -888,23 +898,23 @@ Package: expl3 2018-11-19 L3 programming layer (code)
 \l_tmpb_box=\box44
 \g_tmpa_box=\box45
 \g_tmpb_box=\box46
-\l__box_top_dim=\dimen185
-\l__box_bottom_dim=\dimen186
-\l__box_left_dim=\dimen187
-\l__box_right_dim=\dimen188
-\l__box_top_new_dim=\dimen189
-\l__box_bottom_new_dim=\dimen190
-\l__box_left_new_dim=\dimen191
-\l__box_right_new_dim=\dimen192
+\l__box_top_dim=\dimen189
+\l__box_bottom_dim=\dimen190
+\l__box_left_dim=\dimen191
+\l__box_right_dim=\dimen192
+\l__box_top_new_dim=\dimen193
+\l__box_bottom_new_dim=\dimen194
+\l__box_left_new_dim=\dimen195
+\l__box_right_new_dim=\dimen196
 \l__box_internal_box=\box47
 \l__coffin_internal_box=\box48
-\l__coffin_internal_dim=\dimen193
-\l__coffin_offset_x_dim=\dimen194
-\l__coffin_offset_y_dim=\dimen195
-\l__coffin_x_dim=\dimen196
-\l__coffin_y_dim=\dimen197
-\l__coffin_x_prime_dim=\dimen198
-\l__coffin_y_prime_dim=\dimen199
+\l__coffin_internal_dim=\dimen197
+\l__coffin_offset_x_dim=\dimen198
+\l__coffin_offset_y_dim=\dimen199
+\l__coffin_x_dim=\dimen256
+\l__coffin_y_dim=\dimen257
+\l__coffin_x_prime_dim=\dimen258
+\l__coffin_y_prime_dim=\dimen259
 \c_empty_coffin=\box49
 \l__coffin_aligned_coffin=\box50
 \l__coffin_aligned_internal_coffin=\box51
@@ -913,17 +923,17 @@ Package: expl3 2018-11-19 L3 programming layer (code)
 \l__coffin_display_coffin=\box54
 \l__coffin_display_coord_coffin=\box55
 \l__coffin_display_pole_coffin=\box56
-\l__coffin_display_offset_dim=\dimen256
-\l__coffin_display_x_dim=\dimen257
-\l__coffin_display_y_dim=\dimen258
+\l__coffin_display_offset_dim=\dimen260
+\l__coffin_display_x_dim=\dimen261
+\l__coffin_display_y_dim=\dimen262
 \g__file_internal_ior=\read2
-\l__coffin_bounding_shift_dim=\dimen259
-\l__coffin_left_corner_dim=\dimen260
-\l__coffin_right_corner_dim=\dimen261
-\l__coffin_bottom_corner_dim=\dimen262
-\l__coffin_top_corner_dim=\dimen263
-\l__coffin_scaled_total_height_dim=\dimen264
-\l__coffin_scaled_width_dim=\dimen265
+\l__coffin_bounding_shift_dim=\dimen263
+\l__coffin_left_corner_dim=\dimen264
+\l__coffin_right_corner_dim=\dimen265
+\l__coffin_bottom_corner_dim=\dimen266
+\l__coffin_top_corner_dim=\dimen267
+\l__coffin_scaled_total_height_dim=\dimen268
+\l__coffin_scaled_width_dim=\dimen269
 \l__seq_internal_a_int=\count272
 \l__seq_internal_b_int=\count273
 )
@@ -951,9 +961,9 @@ eX
 \l__fontspec_emdef_int=\count285
 \l__fontspec_strong_int=\count286
 \l__fontspec_strongdef_int=\count287
-\l__fontspec_tmpa_dim=\dimen266
-\l__fontspec_tmpb_dim=\dimen267
-\l__fontspec_tmpc_dim=\dimen268
+\l__fontspec_tmpa_dim=\dimen270
+\l__fontspec_tmpb_dim=\dimen271
+\l__fontspec_tmpc_dim=\dimen272
 
 (/usr/share/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
@@ -1007,7 +1017,7 @@ lig;+smcp;"
 ;+tlig;"
 (fontspec)             - 'bold italic small caps'  (bx/itsc) with NFSS spec.: 
 
-LaTeX Info: Redefining \rmfamily on input line 12.
+LaTeX Info: Redefining \rmfamily on input line 9.
 
 Package fontspec Info: Font family 'FiraSans(0)' created for font 'Fira Sans'
 (fontspec)             with options [Ligatures=TeX].
@@ -1039,7 +1049,7 @@ mcp;"
 (fontspec)             <->"FiraSans/BI:mode=node;script=latn;language=DFLT;+tlig
 ;+smcp;"
 
-LaTeX Info: Redefining \sffamily on input line 13.
+LaTeX Info: Redefining \sffamily on input line 10.
 luaotfload | aux : font no 37 (nil) does not define feature smcp for script latn
  with language dflt
 luaotfload | aux : no font with id 37
@@ -1098,7 +1108,7 @@ ge=DFLT;"
 (fontspec)             4\font \fontdimen 7\font =0\fontdimen 2\font
 (fontspec)             \tex_hyphenchar:D \font =-1\scan_stop: 
 
-LaTeX Info: Redefining \ttfamily on input line 14.
+LaTeX Info: Redefining \ttfamily on input line 11.
 
 (/usr/share/texmf-dist/tex/latex/mathtools/mathtools.sty
 Package: mathtools 2018/01/08 v1.21 mathematical typesetting tools
@@ -1117,11 +1127,11 @@ Package: amstext 2000/06/29 v2.01 AMS text
 (/usr/share/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks37
-\ex@=\dimen269
+\ex@=\dimen273
 ))
 (/usr/share/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
-\pmbraise@=\dimen270
+\pmbraise@=\dimen274
 )
 (/usr/share/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 2016/03/08 v2.02 operator names
@@ -1138,7 +1148,7 @@ LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
 \Mathstrutbox@=\box57
 \strutbox@=\box58
-\big@size=\dimen271
+\big@size=\dimen275
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \macc@depth=\count293
@@ -1151,12 +1161,12 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 \column@=\count298
 \maxfields@=\count299
 \andhelp@=\toks39
-\eqnshift@=\dimen272
-\alignsep@=\dimen273
-\tagshift@=\dimen274
-\tagwidth@=\dimen275
-\totwidth@=\dimen276
-\lineht@=\dimen277
+\eqnshift@=\dimen276
+\alignsep@=\dimen277
+\tagshift@=\dimen278
+\tagwidth@=\dimen279
+\totwidth@=\dimen280
+\lineht@=\dimen281
 \@envbody=\toks40
 \multlinegap=\skip68
 \multlinetaggap=\skip69
@@ -1169,32 +1179,29 @@ LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
 \g_MT_multlinerow_int=\count300
-\l_MT_multwidth_dim=\dimen278
+\l_MT_multwidth_dim=\dimen282
 \origjot=\skip70
-\l_MT_shortvdotswithinadjustabove_dim=\dimen279
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen280
-\l_MT_above_intertext_sep=\dimen281
-\l_MT_below_intertext_sep=\dimen282
-\l_MT_above_shortintertext_sep=\dimen283
-\l_MT_below_shortintertext_sep=\dimen284
-)
-(/usr/share/texmf-dist/tex/latex/trfsigns/trfsigns.sty
-Package: trfsigns 
+\l_MT_shortvdotswithinadjustabove_dim=\dimen283
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen284
+\l_MT_above_intertext_sep=\dimen285
+\l_MT_below_intertext_sep=\dimen286
+\l_MT_above_shortintertext_sep=\dimen287
+\l_MT_below_shortintertext_sep=\dimen288
 )
 (/usr/share/texmf-dist/tex/latex/mathtools/empheq.sty
 Package: empheq 2017/03/31 v2.15 Emphasizing equations
 \l_EQ_equationtype_int=\count301
 \l_EQ_alignmentmode_int=\count302
-\l_EQ_totalwidth_dim=\dimen285
-\l_EQ_displaywidth_dim=\dimen286
-\l_EQ_temp_linewidth_dim=\dimen287
-\EmphEqdelimitershortfall=\dimen288
+\l_EQ_totalwidth_dim=\dimen289
+\l_EQ_displaywidth_dim=\dimen290
+\l_EQ_temp_linewidth_dim=\dimen291
+\EmphEqdelimitershortfall=\dimen292
 \EmphEqdelimiterfactor=\count303
-\g_EQ_toptag_height_dim=\dimen289
-\g_EQ_bottomtag_depth_dim=\dimen290
-\g_EQ_toprow_height_dim=\dimen291
-\g_EQ_bottomrow_depth_dim=\dimen292
-\g_EQ_widesttag_dim=\dimen293
+\g_EQ_toptag_height_dim=\dimen293
+\g_EQ_bottomtag_depth_dim=\dimen294
+\g_EQ_toprow_height_dim=\dimen295
+\g_EQ_bottomrow_depth_dim=\dimen296
+\g_EQ_widesttag_dim=\dimen297
 \EQ_mathdisplay_box=\box59
 \EQ_tag_box=\box60
 \g_EQ_temprow_int=\count304
@@ -1205,10 +1212,10 @@ Package: gensymb 2003/07/02 v1.0 (WaS)
 (/usr/share/texmf-dist/tex/latex/framed/framed.sty
 Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
 \OuterFrameSep=\skip71
-\fb@frw=\dimen294
-\fb@frh=\dimen295
-\FrameRule=\dimen296
-\FrameSep=\dimen297
+\fb@frw=\dimen298
+\fb@frh=\dimen299
+\FrameRule=\dimen300
+\FrameSep=\dimen301
 )
 (/usr/share/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
@@ -1223,14 +1230,14 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \lst@gtempboxa=\box63
 \lst@token=\toks44
 \lst@length=\count307
-\lst@currlwidth=\dimen298
+\lst@currlwidth=\dimen302
 \lst@column=\count308
 \lst@pos=\count309
-\lst@lostspace=\dimen299
-\lst@width=\dimen300
+\lst@lostspace=\dimen303
+\lst@width=\dimen304
 \lst@newlines=\count310
 \lst@lineno=\count311
-\lst@maxwidth=\dimen301
+\lst@maxwidth=\dimen305
 
 (/usr/share/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2018/09/02 1.7 (Carsten Heinz)
@@ -1302,48 +1309,48 @@ Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
 ))
 (/usr/share/texmf-dist/tex/latex/booktabs/booktabs.sty
 Package: booktabs 2016/04/27 v1.618033 publication quality tables
-\heavyrulewidth=\dimen302
-\lightrulewidth=\dimen303
-\cmidrulewidth=\dimen304
-\belowrulesep=\dimen305
-\belowbottomsep=\dimen306
-\aboverulesep=\dimen307
-\abovetopsep=\dimen308
-\cmidrulesep=\dimen309
-\cmidrulekern=\dimen310
-\defaultaddspace=\dimen311
+\heavyrulewidth=\dimen306
+\lightrulewidth=\dimen307
+\cmidrulewidth=\dimen308
+\belowrulesep=\dimen309
+\belowbottomsep=\dimen310
+\aboverulesep=\dimen311
+\abovetopsep=\dimen312
+\cmidrulesep=\dimen313
+\cmidrulekern=\dimen314
+\defaultaddspace=\dimen315
 \@cmidla=\count317
 \@cmidlb=\count318
-\@aboverulesep=\dimen312
-\@belowrulesep=\dimen313
+\@aboverulesep=\dimen316
+\@belowrulesep=\dimen317
 \@thisruleclass=\count319
 \@lastruleclass=\count320
-\@thisrulewidth=\dimen314
+\@thisrulewidth=\dimen318
 )
 (/usr/share/texmf-dist/tex/latex/tools/tabularx.sty
 Package: tabularx 2016/02/03 v2.11b `tabularx' package (DPC)
 
 (/usr/share/texmf-dist/tex/latex/tools/array.sty
 Package: array 2018/04/30 v2.4h Tabular extension package (FMi)
-\col@sep=\dimen315
+\col@sep=\dimen319
 \ar@mcellbox=\box66
-\extrarowheight=\dimen316
+\extrarowheight=\dimen320
 \NC@list=\toks47
 \extratabsurround=\skip72
 \backup@length=\skip73
 \ar@cellbox=\box67
 )
-\TX@col@width=\dimen317
-\TX@old@table=\dimen318
-\TX@old@col=\dimen319
-\TX@target=\dimen320
-\TX@delta=\dimen321
+\TX@col@width=\dimen321
+\TX@old@table=\dimen322
+\TX@old@col=\dimen323
+\TX@target=\dimen324
+\TX@delta=\dimen325
 \TX@cols=\count321
 \TX@ftn=\toks48
 )
 (/usr/share/texmf-dist/tex/latex/makecell/makecell.sty
 Package: makecell 2009/08/03 V0.1e Managing of Tab Column Heads and Cells
-\rotheadsize=\dimen322
+\rotheadsize=\dimen326
 \c@nlinenum=\count322
 \TeXr@lab=\toks49
 )
@@ -1608,11 +1615,11 @@ Package biblatex Info: ... file 'biblatex.cfg' found.
 (/usr/share/texmf-dist/tex/latex/biblatex/biblatex.cfg
 File: biblatex.cfg 
 ))
-Package biblatex Info: Redefining '\cite' on input line 199.
-Package biblatex Info: Redefining '\parencite' on input line 213.
-Package biblatex Info: Redefining '\footcite' on input line 227.
-Package biblatex Info: Redefining '\footcitetext' on input line 234.
-Package biblatex Info: Redefining '\textcite' on input line 241.
+Package biblatex Info: Redefining '\cite' on input line 193.
+Package biblatex Info: Redefining '\parencite' on input line 207.
+Package biblatex Info: Redefining '\footcite' on input line 221.
+Package biblatex Info: Redefining '\footcitetext' on input line 228.
+Package biblatex Info: Redefining '\textcite' on input line 235.
 
 (/usr/share/texmf-dist/tex/latex/hyperref/hyperref.sty
 Package: hyperref 2018/09/30 v6.88a Hypertext links for LaTeX
@@ -1651,7 +1658,7 @@ Package hobsub Info: Skipping package `atbegshi' (already loaded).
 Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
 Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
 )
-\@linkdim=\dimen323
+\@linkdim=\dimen327
 \Hy@linkcounter=\count449
 \Hy@pagecounter=\count450
 
@@ -1672,10 +1679,10 @@ Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
 Package hyperref Info: Bookmarks ON on input line 4788.
 \c@Hy@tempcnt=\count452
 LaTeX Info: Redefining \url on input line 5141.
-\XeTeXLinkMargin=\dimen324
+\XeTeXLinkMargin=\dimen328
 \Fld@menulength=\count453
-\Field@Width=\dimen325
-\Fld@charsize=\dimen326
+\Field@Width=\dimen329
+\Fld@charsize=\dimen330
 Package hyperref Info: Hyper figures OFF on input line 6396.
 Package hyperref Info: Link nesting OFF on input line 6401.
 Package hyperref Info: Hyper index ON on input line 6404.
@@ -1703,7 +1710,7 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip96
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 268.
+Package hyperref Info: Option `colorlinks' set `true' on input line 262.
 )
 (/usr/share/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tikzlibrary
 angles.code.tex
@@ -1715,7 +1722,7 @@ File: tikzlibraryarrows.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
 
 (/usr/share/texmf-dist/tex/generic/pgf/libraries/pgflibraryarrows.code.tex
 File: pgflibraryarrows.code.tex 2013/09/23 v3.0.1a (rcs-revision 1.16)
-\arrowsize=\dimen327
+\arrowsize=\dimen331
 ))
 Package biblatex Info: Trying to load language 'ngerman'...
 Package biblatex Info: ... file 'ngerman.lbx' found.
@@ -1743,33 +1750,34 @@ Package biblatex Warning: 'babel/polyglossia' detected but 'csquotes' missing.
 (./Mathe3Formelsammlung.aux (./Title.aux))
 \openout1 = Mathe3Formelsammlung.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 29.
-LaTeX Font Info:    ... okay on input line 29.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 43.
+LaTeX Font Info:    ... okay on input line 43.
 
+ABD: EveryShipout initializing macros
 (/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count461
-\scratchdimen=\dimen328
+\scratchdimen=\dimen332
 \scratchbox=\box77
 \nofMPsegments=\count462
 \nofMParguments=\count463
 \everyMPshowfont=\toks52
 \MPscratchCnt=\count464
-\MPscratchDim=\dimen329
+\MPscratchDim=\dimen333
 \MPnumerator=\count465
 \makeMPintoPDFobject=\count466
 \everyMPtoPDFconversion=\toks53
@@ -1790,12 +1798,11 @@ Package grfext Info: Graphics extension search list:
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 
 ))
-ABD: EveryShipout initializing macros
 
 Package pgfplots Warning: running in backwards compatibility mode (unsuitable ti
 ck labels; missing features). Consider writing \pgfplotsset{compat=1.16} into yo
 ur preamble.
- on input line 29.
+ on input line 43.
 
 \AtBeginShipoutBox=\box78
 (/usr/share/texmf-dist/tex/latex/oberdiek/pdflscape.sty
@@ -1846,72 +1853,72 @@ Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 
 \symlegacymaths=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 29.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 29.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 29.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 29.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 29.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 29.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 29.
-LaTeX Font Info:    Redeclaring math accent \check on input line 29.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 29.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 29.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 29.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 29.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 29.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 43.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 43.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 43.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 43.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 43.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 43.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 43.
+LaTeX Font Info:    Redeclaring math accent \check on input line 43.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 43.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 43.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 43.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 43.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 43.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 43.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 43.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 43.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 43.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 43.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 43.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 43.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 43.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 43.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 43.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 43.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 29.
+(Font)              `operators' in the math version `normal' on input line 43.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/SourceSerifPro(0)/m/n on input line 2
-9.
+(Font)                  OT1/cmr/m/n --> TU/SourceSerifPro(0)/m/n on input line 4
+3.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 29.
+(Font)              `operators' in the math version `bold' on input line 43.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  OT1/cmr/bx/n --> TU/SourceSerifPro(0)/m/n on input line 
-29.
+43.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
 (Font)                  TU/SourceSerifPro(0)/m/n --> TU/SourceSerifPro(0)/m/n on
- input line 29.
+ input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
 (Font)                  OT1/cmr/m/it --> TU/SourceSerifPro(0)/m/it on input line
- 29.
+ 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
 (Font)                  OT1/cmr/bx/n --> TU/SourceSerifPro(0)/bx/n on input line
- 29.
+ 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/FiraSans(0)/m/n on input line 29.
+(Font)                  OT1/cmss/m/n --> TU/FiraSans(0)/m/n on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/SourceCodePro(0)/m/n on input line 2
-9.
+(Font)                  OT1/cmtt/m/n --> TU/SourceCodePro(0)/m/n on input line 4
+3.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
 (Font)                  TU/SourceSerifPro(0)/m/n --> TU/SourceSerifPro(0)/bx/n o
-n input line 29.
+n input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> TU/SourceSerifPro(0)/bx/it on input li
-ne 29.
+ne 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/FiraSans(0)/bx/n on input line 29.
+(Font)                  OT1/cmss/bx/n --> TU/FiraSans(0)/bx/n on input line 43.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/SourceCodePro(0)/bx/n on input line 
-29.
-LaTeX Info: Redefining \celsius on input line 29.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 29.
+43.
+LaTeX Info: Redefining \celsius on input line 43.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 43.
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 29.
-Package gensymb Info: Using \Omega for \ohm on input line 29.
+LaTeX Info: Redefining \ohm on input line 43.
+Package gensymb Info: Using \Omega for \ohm on input line 43.
 
 Package gensymb Warning: Not defining \micro.
 
@@ -1925,9 +1932,9 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Mathe3Formelsammlung.bbl' not found.
 No file Mathe3Formelsammlung.bbl.
-Package biblatex Info: Reference section=0 on input line 29.
-Package biblatex Info: Reference segment=0 on input line 29.
-Package hyperref Info: Link coloring ON on input line 29.
+Package biblatex Info: Reference section=0 on input line 43.
+Package biblatex Info: Reference segment=0 on input line 43.
+Package hyperref Info: Link coloring ON on input line 43.
 (/usr/share/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -1936,9 +1943,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count468
 )
-LaTeX Info: Redefining \ref on input line 29.
-LaTeX Info: Redefining \pageref on input line 29.
-LaTeX Info: Redefining \nameref on input line 29.
+LaTeX Info: Redefining \ref on input line 43.
+LaTeX Info: Redefining \pageref on input line 43.
+LaTeX Info: Redefining \nameref on input line 43.
 
 (./Mathe3Formelsammlung.out) (./Mathe3Formelsammlung.out)
 \@outlinefile=\write7
@@ -2038,10 +2045,10 @@ Class scrreprt Warning: \float@addtolists detected!
 
 
 Package tabularx Warning: X Columns too narrow (table too wide)
-(tabularx)                 on input line 51.
+(tabularx)                 on input line 65.
 
 
-Overfull \hbox (28.5992pt too wide) in alignment at lines 51--51
+Overfull \hbox (28.5992pt too wide) in alignment at lines 65--65
 [][][]
  []
 
@@ -2055,7 +2062,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5]
-Underfull \hbox (badness 10000) in paragraph at lines 153--154
+Underfull \hbox (badness 10000) in paragraph at lines 167--168
 []\TU/SourceSerifPro(0)/m/n/12 Ei-ne spe-zi-el-le Form ist die $[]\OT1/cmr/m/n/
 12 (\OML/cmm/m/it/12 x\OT1/cmr/m/n/12 )$\TU/SourceSerifPro(0)/m/n/12 -
  []
@@ -2064,23 +2071,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 153--154
 part I.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 176.
+(scrkbase)              on input line 190.
 [7
 
 ]
 chapter 2.
 
-Underfull \hbox (badness 10000) in paragraph at lines 182--183
+Underfull \hbox (badness 10000) in paragraph at lines 196--197
 []\TU/SourceSerifPro(0)/m/n/12 Die Heaviside-Funktion oder Ein-heits-
  []
 
 
-Underfull \hbox (badness 3364) in paragraph at lines 207--208
+Underfull \hbox (badness 3364) in paragraph at lines 221--222
 []\TU/SourceSerifPro(0)/m/n/12 Wird ei-ne Funk-ti-on mit der Heaviside-
  []
 
 
-Underfull \hbox (badness 2635) in paragraph at lines 220--221
+Underfull \hbox (badness 2635) in paragraph at lines 234--235
 []\TU/SourceSerifPro(0)/m/n/12 Mit-hil-fe der Heaviside-Funktion kön-nen
  []
 
@@ -2090,18 +2097,18 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [8
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 292--293
+Underfull \hbox (badness 10000) in paragraph at lines 306--307
 []\TU/SourceSerifPro(0)/m/n/12 Wird ei-ne Funk-ti-on mit der Dirac-
  []
 
 
-Underfull \hbox (badness 6477) in paragraph at lines 292--293
+Underfull \hbox (badness 6477) in paragraph at lines 306--307
 \TU/SourceSerifPro(0)/m/n/12 Distribution an ei-nem Punkt $\OML/cmm/m/it/12 t[]
 $ \TU/SourceSerifPro(0)/m/n/12 mul-ti-
  []
 
 
-Underfull \hbox (badness 1377) in paragraph at lines 292--293
+Underfull \hbox (badness 1377) in paragraph at lines 306--307
 \TU/SourceSerifPro(0)/bx/n/12 auf den Funk-ti-ons-wert an der Stel-le $\OML/cmm
 /b/it/12 t[]$
  []
@@ -2113,19 +2120,19 @@ Missing character: There is no 1 (U+0031) in font nullfont!
 Missing character: There is no p (U+0070) in font nullfont!
 Missing character: There is no t (U+0074) in font nullfont!
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 325--326
+Underfull \hbox (badness 10000) in paragraph at lines 339--340
 []\TU/SourceSerifPro(0)/m/n/12 Wird ei-ne Funk-ti-on mit Un-ste-tig-
  []
 
 
-Overfull \hbox (14.66525pt too wide) in paragraph at lines 362--363
+Overfull \hbox (14.66525pt too wide) in paragraph at lines 376--377
 [][] 
  []
 
 LaTeX Font Info:    Font shape `TU/SourceCodePro(0)/m/n' will be
-(Font)              scaled to size 11.39996pt on input line 369.
+(Font)              scaled to size 11.39996pt on input line 383.
 
-Overfull \hbox (42.92789pt too wide) in paragraph at lines 369--370
+Overfull \hbox (42.92789pt too wide) in paragraph at lines 383--384
 \TU/SourceSerifPro(0)/m/n/12 is shifted over ano-t-her func-tion $\OML/cmm/m/it
 /12 f$\TU/SourceSerifPro(0)/m/n/12 .“ ([][]\TU/SourceCodePro(0)/m/n/12 http:/
 /mathworld.wolfram.com/Convolution.html[][]\TU/SourceSerifPro(0)/m/n/12 ) 
@@ -2133,20 +2140,20 @@ Overfull \hbox (42.92789pt too wide) in paragraph at lines 369--370
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 380.
+(hyperref)                removing `math shift' on input line 394.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\sigma' on input line 380.
+(hyperref)                removing `\sigma' on input line 394.
 
 [10]
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 388.
+(hyperref)                removing `math shift' on input line 402.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `\delta' on input line 388.
+(hyperref)                removing `\delta' on input line 402.
 
 [11]
 chapter 3.
@@ -2162,240 +2169,239 @@ Underfull \vbox (badness 3281) has occurred while \output is active []
 chapter 4.
 [15
 
-
-]
+] [16]
 chapter 5.
-[16
+[17
 
 ]
 part II.
 Package scrkbase Info: You've told me to use the font selection of the element
 (scrkbase)             `partprefix' that is an alias of element `partnumber'
-(scrkbase)              on input line 500.
-[17
-
-]
-chapter 6.
+(scrkbase)              on input line 525.
 [18
 
 ]
+chapter 6.
+[19
+
+]
 chapter 7.
-<Grafiken/Kombinatorik.png, id=377, 767.11594pt x 551.05875pt>
+<Grafiken/Kombinatorik.png, id=382, 767.11594pt x 551.05875pt>
 File: Grafiken/Kombinatorik.png Graphic file (type png)
 <use Grafiken/Kombinatorik.png>
-Package luatex.def Info: Grafiken/Kombinatorik.png  used on input line 524.
+Package luatex.def Info: Grafiken/Kombinatorik.png  used on input line 549.
 (luatex.def)             Requested size: 455.24411pt x 327.03056pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [19
+ [20
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20<./Grafiken/Kombinatorik.png>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [21]
+ [21<./Grafiken/Kombinatorik.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [22]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [23]
-[24] [25] [26]
-<Cheatsheet.pdf, id=413, 597.50829pt x 845.0471pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24]
+[25] [26] [27]
+<Cheatsheet.pdf, id=418, 597.50829pt x 845.0471pt>
 File: Cheatsheet.pdf Graphic file (type pdf)
 <use Cheatsheet.pdf>
-Package luatex.def Info: Cheatsheet.pdf  used on input line 716.
+Package luatex.def Info: Cheatsheet.pdf  used on input line 741.
 (luatex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: Cheatsheet.pdf Graphic file (type pdf)
 <use Cheatsheet.pdf>
-Package luatex.def Info: Cheatsheet.pdf  used on input line 716.
+Package luatex.def Info: Cheatsheet.pdf  used on input line 741.
 (luatex.def)             Requested size: 597.50682pt x 845.04504pt.
-<Cheatsheet.pdf, id=416, page=1, 597.50829pt x 845.0471pt>
+<Cheatsheet.pdf, id=421, page=1, 597.50829pt x 845.0471pt>
 File: Cheatsheet.pdf Graphic file (type pdf)
 <use Cheatsheet.pdf, page 1>
-Package luatex.def Info: Cheatsheet.pdf , page1 used on input line 716.
+Package luatex.def Info: Cheatsheet.pdf , page1 used on input line 741.
 (luatex.def)             Requested size: 597.50682pt x 845.04504pt.
 File: Cheatsheet.pdf Graphic file (type pdf)
 <use Cheatsheet.pdf, page 1>
-Package luatex.def Info: Cheatsheet.pdf , page1 used on input line 716.
+Package luatex.def Info: Cheatsheet.pdf , page1 used on input line 741.
 (luatex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: Cheatsheet.pdf Graphic file (type pdf)
 <use Cheatsheet.pdf, page 1>
-Package luatex.def Info: Cheatsheet.pdf , page1 used on input line 716.
+Package luatex.def Info: Cheatsheet.pdf , page1 used on input line 741.
 (luatex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: Cheatsheet.pdf Graphic file (type pdf)
 <use Cheatsheet.pdf, page 1>
-Package luatex.def Info: Cheatsheet.pdf , page1 used on input line 716.
+Package luatex.def Info: Cheatsheet.pdf , page1 used on input line 741.
 (luatex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: Cheatsheet.pdf Graphic file (type pdf)
 <use Cheatsheet.pdf, page 1>
-Package luatex.def Info: Cheatsheet.pdf , page1 used on input line 716.
-(luatex.def)             Requested size: 597.53416pt x 845.08372pt.
- [27<./Cheatsheet.pdf>]
-<Cheatsheet.pdf, id=470, page=2, 597.50829pt x 845.0471pt>
-File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 2>
-Package luatex.def Info: Cheatsheet.pdf , page2 used on input line 716.
-(luatex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 2>
-Package luatex.def Info: Cheatsheet.pdf , page2 used on input line 716.
-(luatex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 2>
-Package luatex.def Info: Cheatsheet.pdf , page2 used on input line 716.
+Package luatex.def Info: Cheatsheet.pdf , page1 used on input line 741.
 (luatex.def)             Requested size: 597.53416pt x 845.08372pt.
  [28<./Cheatsheet.pdf>]
-<Cheatsheet.pdf, id=482, page=3, 597.50829pt x 845.0471pt>
+<Cheatsheet.pdf, id=475, page=2, 597.50829pt x 845.0471pt>
 File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 3>
-Package luatex.def Info: Cheatsheet.pdf , page3 used on input line 716.
+<use Cheatsheet.pdf, page 2>
+Package luatex.def Info: Cheatsheet.pdf , page2 used on input line 741.
 (luatex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 3>
-Package luatex.def Info: Cheatsheet.pdf , page3 used on input line 716.
+<use Cheatsheet.pdf, page 2>
+Package luatex.def Info: Cheatsheet.pdf , page2 used on input line 741.
 (luatex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 3>
-Package luatex.def Info: Cheatsheet.pdf , page3 used on input line 716.
+<use Cheatsheet.pdf, page 2>
+Package luatex.def Info: Cheatsheet.pdf , page2 used on input line 741.
 (luatex.def)             Requested size: 597.53416pt x 845.08372pt.
  [29<./Cheatsheet.pdf>]
-<Cheatsheet.pdf, id=491, page=4, 597.50829pt x 845.0471pt>
+<Cheatsheet.pdf, id=487, page=3, 597.50829pt x 845.0471pt>
 File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 4>
-Package luatex.def Info: Cheatsheet.pdf , page4 used on input line 716.
+<use Cheatsheet.pdf, page 3>
+Package luatex.def Info: Cheatsheet.pdf , page3 used on input line 741.
 (luatex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 4>
-Package luatex.def Info: Cheatsheet.pdf , page4 used on input line 716.
+<use Cheatsheet.pdf, page 3>
+Package luatex.def Info: Cheatsheet.pdf , page3 used on input line 741.
 (luatex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 4>
-Package luatex.def Info: Cheatsheet.pdf , page4 used on input line 716.
+<use Cheatsheet.pdf, page 3>
+Package luatex.def Info: Cheatsheet.pdf , page3 used on input line 741.
 (luatex.def)             Requested size: 597.53416pt x 845.08372pt.
  [30<./Cheatsheet.pdf>]
-<Cheatsheet.pdf, id=497, page=5, 597.50829pt x 845.0471pt>
+<Cheatsheet.pdf, id=496, page=4, 597.50829pt x 845.0471pt>
 File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 5>
-Package luatex.def Info: Cheatsheet.pdf , page5 used on input line 716.
+<use Cheatsheet.pdf, page 4>
+Package luatex.def Info: Cheatsheet.pdf , page4 used on input line 741.
 (luatex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 5>
-Package luatex.def Info: Cheatsheet.pdf , page5 used on input line 716.
+<use Cheatsheet.pdf, page 4>
+Package luatex.def Info: Cheatsheet.pdf , page4 used on input line 741.
 (luatex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 5>
-Package luatex.def Info: Cheatsheet.pdf , page5 used on input line 716.
+<use Cheatsheet.pdf, page 4>
+Package luatex.def Info: Cheatsheet.pdf , page4 used on input line 741.
 (luatex.def)             Requested size: 597.53416pt x 845.08372pt.
  [31<./Cheatsheet.pdf>]
-<Cheatsheet.pdf, id=518, page=6, 597.50829pt x 845.0471pt>
+<Cheatsheet.pdf, id=503, page=5, 597.50829pt x 845.0471pt>
 File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 6>
-Package luatex.def Info: Cheatsheet.pdf , page6 used on input line 716.
+<use Cheatsheet.pdf, page 5>
+Package luatex.def Info: Cheatsheet.pdf , page5 used on input line 741.
 (luatex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 6>
-Package luatex.def Info: Cheatsheet.pdf , page6 used on input line 716.
+<use Cheatsheet.pdf, page 5>
+Package luatex.def Info: Cheatsheet.pdf , page5 used on input line 741.
 (luatex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 6>
-Package luatex.def Info: Cheatsheet.pdf , page6 used on input line 716.
+<use Cheatsheet.pdf, page 5>
+Package luatex.def Info: Cheatsheet.pdf , page5 used on input line 741.
 (luatex.def)             Requested size: 597.53416pt x 845.08372pt.
  [32<./Cheatsheet.pdf>]
-<Cheatsheet.pdf, id=524, page=7, 597.50829pt x 845.0471pt>
+<Cheatsheet.pdf, id=523, page=6, 597.50829pt x 845.0471pt>
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 6>
+Package luatex.def Info: Cheatsheet.pdf , page6 used on input line 741.
+(luatex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 6>
+Package luatex.def Info: Cheatsheet.pdf , page6 used on input line 741.
+(luatex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 6>
+Package luatex.def Info: Cheatsheet.pdf , page6 used on input line 741.
+(luatex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [33<./Cheatsheet.pdf>]
+<Cheatsheet.pdf, id=529, page=7, 597.50829pt x 845.0471pt>
 File: Cheatsheet.pdf Graphic file (type pdf)
 <use Cheatsheet.pdf, page 7>
-Package luatex.def Info: Cheatsheet.pdf , page7 used on input line 716.
+Package luatex.def Info: Cheatsheet.pdf , page7 used on input line 741.
 (luatex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: Cheatsheet.pdf Graphic file (type pdf)
 <use Cheatsheet.pdf, page 7>
-Package luatex.def Info: Cheatsheet.pdf , page7 used on input line 716.
+Package luatex.def Info: Cheatsheet.pdf , page7 used on input line 741.
 (luatex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: Cheatsheet.pdf Graphic file (type pdf)
 <use Cheatsheet.pdf, page 7>
-Package luatex.def Info: Cheatsheet.pdf , page7 used on input line 716.
+Package luatex.def Info: Cheatsheet.pdf , page7 used on input line 741.
 (luatex.def)             Requested size: 597.53416pt x 845.08372pt.
 
-[33<./Cheatsheet.pdf>]
-<Cheatsheet.pdf, id=536, page=8, 597.50829pt x 845.0471pt>
+[34<./Cheatsheet.pdf>]
+<Cheatsheet.pdf, id=541, page=8, 597.50829pt x 845.0471pt>
 File: Cheatsheet.pdf Graphic file (type pdf)
 <use Cheatsheet.pdf, page 8>
-Package luatex.def Info: Cheatsheet.pdf , page8 used on input line 716.
-(luatex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 8>
-Package luatex.def Info: Cheatsheet.pdf , page8 used on input line 716.
+Package luatex.def Info: Cheatsheet.pdf , page8 used on input line 741.
 (luatex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: Cheatsheet.pdf Graphic file (type pdf)
 <use Cheatsheet.pdf, page 8>
-Package luatex.def Info: Cheatsheet.pdf , page8 used on input line 716.
-(luatex.def)             Requested size: 597.53416pt x 845.08372pt.
- [34<./Cheatsheet.pdf>]
-<Cheatsheet.pdf, id=542, page=9, 597.50829pt x 845.0471pt>
-File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 9>
-Package luatex.def Info: Cheatsheet.pdf , page9 used on input line 716.
+Package luatex.def Info: Cheatsheet.pdf , page8 used on input line 741.
 (luatex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 9>
-Package luatex.def Info: Cheatsheet.pdf , page9 used on input line 716.
-(luatex.def)             Requested size: 597.53416pt x 845.08372pt.
-File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 9>
-Package luatex.def Info: Cheatsheet.pdf , page9 used on input line 716.
+<use Cheatsheet.pdf, page 8>
+Package luatex.def Info: Cheatsheet.pdf , page8 used on input line 741.
 (luatex.def)             Requested size: 597.53416pt x 845.08372pt.
  [35<./Cheatsheet.pdf>]
-<Cheatsheet.pdf, id=551, page=10, 597.50829pt x 845.0471pt>
+<Cheatsheet.pdf, id=547, page=9, 597.50829pt x 845.0471pt>
 File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 10>
-Package luatex.def Info: Cheatsheet.pdf , page10 used on input line 716.
+<use Cheatsheet.pdf, page 9>
+Package luatex.def Info: Cheatsheet.pdf , page9 used on input line 741.
 (luatex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 10>
-Package luatex.def Info: Cheatsheet.pdf , page10 used on input line 716.
+<use Cheatsheet.pdf, page 9>
+Package luatex.def Info: Cheatsheet.pdf , page9 used on input line 741.
 (luatex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 10>
-Package luatex.def Info: Cheatsheet.pdf , page10 used on input line 716.
+<use Cheatsheet.pdf, page 9>
+Package luatex.def Info: Cheatsheet.pdf , page9 used on input line 741.
 (luatex.def)             Requested size: 597.53416pt x 845.08372pt.
  [36<./Cheatsheet.pdf>]
-<Cheatsheet.pdf, id=560, page=11, 597.50829pt x 845.0471pt>
+<Cheatsheet.pdf, id=556, page=10, 597.50829pt x 845.0471pt>
 File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 11>
-Package luatex.def Info: Cheatsheet.pdf , page11 used on input line 716.
+<use Cheatsheet.pdf, page 10>
+Package luatex.def Info: Cheatsheet.pdf , page10 used on input line 741.
 (luatex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 11>
-Package luatex.def Info: Cheatsheet.pdf , page11 used on input line 716.
+<use Cheatsheet.pdf, page 10>
+Package luatex.def Info: Cheatsheet.pdf , page10 used on input line 741.
 (luatex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 11>
-Package luatex.def Info: Cheatsheet.pdf , page11 used on input line 716.
+<use Cheatsheet.pdf, page 10>
+Package luatex.def Info: Cheatsheet.pdf , page10 used on input line 741.
 (luatex.def)             Requested size: 597.53416pt x 845.08372pt.
  [37<./Cheatsheet.pdf>]
-<Cheatsheet.pdf, id=566, page=12, 597.50829pt x 845.0471pt>
+<Cheatsheet.pdf, id=565, page=11, 597.50829pt x 845.0471pt>
 File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 12>
-Package luatex.def Info: Cheatsheet.pdf , page12 used on input line 716.
+<use Cheatsheet.pdf, page 11>
+Package luatex.def Info: Cheatsheet.pdf , page11 used on input line 741.
 (luatex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 12>
-Package luatex.def Info: Cheatsheet.pdf , page12 used on input line 716.
+<use Cheatsheet.pdf, page 11>
+Package luatex.def Info: Cheatsheet.pdf , page11 used on input line 741.
 (luatex.def)             Requested size: 597.53416pt x 845.08372pt.
 File: Cheatsheet.pdf Graphic file (type pdf)
-<use Cheatsheet.pdf, page 12>
-Package luatex.def Info: Cheatsheet.pdf , page12 used on input line 716.
+<use Cheatsheet.pdf, page 11>
+Package luatex.def Info: Cheatsheet.pdf , page11 used on input line 741.
 (luatex.def)             Requested size: 597.53416pt x 845.08372pt.
  [38<./Cheatsheet.pdf>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 718.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 718.
+<Cheatsheet.pdf, id=571, page=12, 597.50829pt x 845.0471pt>
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 12>
+Package luatex.def Info: Cheatsheet.pdf , page12 used on input line 741.
+(luatex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 12>
+Package luatex.def Info: Cheatsheet.pdf , page12 used on input line 741.
+(luatex.def)             Requested size: 597.53416pt x 845.08372pt.
+File: Cheatsheet.pdf Graphic file (type pdf)
+<use Cheatsheet.pdf, page 12>
+Package luatex.def Info: Cheatsheet.pdf , page12 used on input line 741.
+(luatex.def)             Requested size: 597.53416pt x 845.08372pt.
+ [39<./Cheatsheet.pdf>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 743.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 743.
 
 (./Mathe3Formelsammlung.aux (./Title.aux))
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 718.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 718.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 743.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 743.
 Package rerunfilecheck Info: File `Mathe3Formelsammlung.out' has not changed.
 (rerunfilecheck)             Checksum: 03E53CB9BEE099750DE2DEC883D530D1;3059.
 Package logreq Info: Writing requests to 'Mathe3Formelsammlung.run.xml'.
@@ -2404,40 +2410,41 @@ Package logreq Info: Writing requests to 'Mathe3Formelsammlung.run.xml'.
 )
 
 Here is how much of LuaTeX's memory you used:
- 57519 strings out of 494407
+ 57851 strings out of 494407
  100000,2373549 words of node,token memory allocated
  1180 words of node memory still in use:
    15 hlist, 2 vlist, 10 rule, 2 glue, 4 kern, 1 glyph, 86 attribute, 75 glue_sp
 ec, 86 attribute_list, 1 write, 16 pdf_literal, 1 pdf_action, 16 pdf_colorstack 
 nodes
-   avail lists: 1:7,2:2389,3:793,4:184,5:448,6:107,7:2319,8:94,9:533,10:12,11:17
+   avail lists: 1:7,2:2389,3:793,4:184,5:449,6:107,7:2319,8:94,9:528,10:12,11:17
 1,12:1
- 59562 multiletter control sequences out of 65536+600000
+ 59882 multiletter control sequences out of 65536+600000
  111 fonts using 17966351 bytes
- 73i,21n,100p,9105b,2279s stack positions out of 5000i,500n,10000p,200000b,100000s
+ 69i,21n,100p,9105b,2279s stack positions out of 5000i,500n,10000p,200000b,100000s
 </usr/share/fonts/adobe-source-serif-pro/SourceSerifPro-It.otf></usr/share/texmf
 -dist/fonts/opentype/adobe/sourcecodepro/SourceCodePro-Regular.otf></usr/share/t
 exmf-dist/fonts/opentype/adobe/sourceserifpro/SourceSerifPro-Bold.otf></usr/shar
 e/texmf-dist/fonts/opentype/adobe/sourceserifpro/SourceSerifPro-Regular.otf></us
 r/share/texmf-dist/fonts/opentype/public/fira/FiraSans-Regular.otf></usr/share/t
-exmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/am
-sfonts/cm/cmmi10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi1
-2.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/shar
-e/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmmib10.pfb></usr/share/texmf-dist/fonts/type1/publi
-c/amsfonts/cm/cmr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cm
-r12.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/sh
-are/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fo
-nts/type1/public/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy1
-0.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/shar
-e/texmf-dist/fonts/type1/public/amsfonts/latxfont/lcircle1.pfb></usr/share/texmf
--dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Mathe3Formelsammlung.pdf (38 pages, 617885 bytes).
+exmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texmf-dist/fonts
+/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texmf-dist/fonts/type1/public/am
+sfonts/cm/cmex10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi1
+0.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/sha
+re/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi6.pfb></usr/share/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmmib10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr10.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/s
+hare/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texmf-dist/fonts/type1/publi
+c/amsfonts/cm/cmr7.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr
+8.pfb></usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/sha
+re/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texmf-dist/fo
+nts/type1/public/amsfonts/latxfont/lcircle1.pfb></usr/share/texmf-dist/fonts/typ
+e1/public/amsfonts/symbols/msbm10.pfb>
+Output written on Mathe3Formelsammlung.pdf (39 pages, 626973 bytes).
 
-PDF statistics: 668 PDF objects out of 1000 (max. 8388607)
- 522 compressed objects within 6 object streams
- 80 named destinations out of 1000 (max. 131072)
+PDF statistics: 676 PDF objects out of 1000 (max. 8388607)
+ 528 compressed objects within 6 object streams
+ 81 named destinations out of 1000 (max. 131072)
  496 words of extra memory for PDF output out of 10000 (max. 100000000)
 
