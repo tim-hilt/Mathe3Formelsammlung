@@ -582,7 +582,7 @@ Beschreibung: Ziehen ohne Zurücklegen $\rightarrow$ Wahrscheinlichkeit verände
 
   \textbf{Dichtefunktion:}
   \begin{align*}
-    X &\sim H(k, n, N, M)\\[1em]
+    X &\sim H(n, N, M)\\[1em]
     P(X = k) &= \frac{\binom{M}{k}\binom{N-M}{n-k}}{\binom{N}{n}}
   \end{align*}
   \textbf{Verteilungsfunktion:}
@@ -609,7 +609,7 @@ Beschreibung: Ziehen \textbf{mit} zurücklegen $\rightarrow$ Wahrscheinlichkeit 
 
   \textbf{Dichtefunktion:}
   \begin{align*}
-    X &\sim \operatorname{B}(k,n,p)\\[1em]
+    X &\sim \operatorname{B}(n,p)\\[1em]
     P(X = k) &= \binom{n}{k}p^k{(1 - p)}^{n-k}
   \end{align*}
   \textbf{Verteilungsfunktion:}
@@ -628,7 +628,7 @@ Beschreibung: Ziehen \textbf{mit} zurücklegen $\rightarrow$ Wahrscheinlichkeit 
   Beschreibung: Gegeben ist ein Durchschnittswerts (\textit{Erwartungswert}) \(\lambda\) pro einer gewissen Einheit (z.B. im Durchschnitt 3 Anrufe in 5 Minuten). Die Poissonverteilung soll berechnen, wie groß die Wahrscheinlichkeit ist einen anderen Wert \(k\) als Ergebnis zu erhalten.\\
   \textbf{Dichtefunktion:}
   \begin{align*}
-    X & \sim \operatorname{Po}(k, \lambda)\\[1em]
+    X & \sim \operatorname{Po}(\lambda)\\[1em]
     P(X = k) & = \frac{\lambda^k}{k!}e^{-\lambda}
   \end{align*}
   \textbf{Verteilungsfunktion:}
